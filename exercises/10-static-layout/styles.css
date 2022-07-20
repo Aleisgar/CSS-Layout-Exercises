@@ -1,9 +1,17 @@
-/* your code here */
-
-/**************************************
-DON'T CHANGE ANYTHING AFTER THIS LINE
-**************************************/
-
+.wrapper {
+	padding: 0 3rem;
+}
+nav {
+	float: left;
+	width: 5cm;
+	margin-right: 2rem;
+	height: 10cm;
+}
+section {
+	display: block;
+	overflow: hidden;
+	height: 10cm;
+}
 *,
 *:before,
 *:after {
@@ -35,4 +43,20 @@ header {
 nav,
 section {
 	padding: 100px 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #2980b9;
+	color: #fff;
+	font-family: Helvetica;
+	text-align: center;
+	margin: 0;
 }
